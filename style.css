@@ -1,0 +1,48 @@
+body {
+    font-family: Tahoma;
+    text-align: center;
+}
+
+/* Common box style */
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    line-height: 100px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+/* Colors */
+.a { background: yellow; }
+.b { background: lightgray; }
+.c { background: lightblue; }
+.d { background: lightgreen; }
+.e { background: pink; }
+.f { background: gray; color: white; }
+
+/* ---------------- */
+/* STYLE A (VERTICAL) */
+/* ---------------- */
+.styleA {
+    width: 120px;
+    margin: auto;
+}
+
+/* ---------------- */
+/* STYLE B (HORIZONTAL) */
+/* ---------------- */
+.styleB {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 20px;
+    position: relative;
+}
+
+/* Put F at bottom-right */
+.bottom {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
